@@ -11,7 +11,7 @@ const port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 const components = [
     { name: "size", URL: process.env.SIZE_URL },
     { name: "crust", URL: process.env.CRUST_URL },
-    // { name: "topping", URL: process.env.TOPPING_URL },
+    { name: "topping", URL: process.env.TOPPING_URL },
 ]
 
 // respond to each request with a randomly generated pizza
