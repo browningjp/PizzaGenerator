@@ -1,0 +1,24 @@
+{
+  "name": "pizzagenerator",
+  "version": "1.0.0",
+  "description": "Simple microservices application for making a random pizza",
+  "main": "server.js",
+  "dependencies": {
+    "needle": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browningjp/PizzaGenerator.git"
+  },
+  "author": "Jonny Browning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/browningjp/PizzaGenerator/issues"
+  },
+  "homepage": "https://github.com/browningjp/PizzaGenerator#readme"
+}
